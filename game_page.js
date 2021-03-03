@@ -25,7 +25,7 @@ var questionTurn="player1";
 var answerTurn="player2";
 
 function check(){
-  var getAnswer= document.getElementById("input_check_box").value;
+  var getAnswer= document.getElementById("inputCheckBox").value;
   console.log("answer is- "+ getAnswer);
   if (getAnswer==actual_answer){
       if(answerTurn=="player1"){
